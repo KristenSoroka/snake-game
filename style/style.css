@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 10;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;   
+    border: magenta 1px solid;
+    width: 200px;
+    height: 200px;     
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: greenyellow;
+    border-radius: 45%;
+}

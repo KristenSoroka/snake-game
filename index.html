@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style/style.css">
+
+        <!-- Stack overflow helped me with an error message I was getting in the console.
+            Said to add the following two meta tags and the error went away!-->
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+    </head>
+    <body>
+        <h1>Snake Game</h1>
+        <button id="start">Start/Restart</button>
+
+        <h2>Score <span id="score">0</span></h2>
+            <!-- id of score on span tag to change the score of the game dynamically in JS -->
+        <div class="grid">
+            <!-- 
+                Game board is to be a 10x10 grid to start. You can always come back and change
+                the size.
+
+                The cell's height and width were set before the JS code was written just so we could see them
+                as they were being created in JS using the compound selector .grid div
+
+                I know from past experiences that when you create an element in JS you can
+                also add a class. I'm wondering if after the fact of generating 100 divs in JS I
+                can add a class and update the stylesheet
+                ** UPDATE ** the first function created in this tutorial did exactly what I was thinking.
+
+                Will be using JS to add 100 divs. 
+
+
+            -->
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
