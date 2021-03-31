@@ -21,3 +21,8 @@ html, body {
     background-color: greenyellow;
     border-radius: 45%;
 }
+
+.apple {
+    background-color: red;
+    border-radius: 50%;
+}
